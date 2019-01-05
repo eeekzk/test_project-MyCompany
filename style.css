@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    background: #000;
+    display: flex;
+    position: fixed;
+}
+.headerLogo{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 12%;
+}
+
+nav{
+    margin-top: 56px;
+    margin-left: 29%;
+}
+
+.head_nav a{
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.head_nav a:hover{
+    border-bottom: 3px solid #fcac45;
+}
+
+.head_nav .iconMenu{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .mainWelcome{
+   background: #000;
+   text-align: center;
+   padding: 256px 0 410px 0; 
+}
+
+main .mainWelcome h1{
+    color: #999999;
+    font-size: 44px;
+}
+
+.mainWelcome h1:after{
+    display: none;
+}
+
+.my_company{
+    color: #fcac45;
+}
+main .mainWelcome p{
+    color: #999999;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.aboutCompany{
+    font-weight: bold;
+}
+
+.bigTape{
+    width: 76%;
+    margin: 0 auto;
+}
+
+main .aboutUs{
+    display:flex;
+    padding: 156px 0 100px 0;
+}
+
+.aboutRight{
+    margin-left: 175px;
+}
+
+.aboutRight h1{
+    display: inline-block;
+    border-bottom: 4px solid #fcac45;
+    letter-spacing: -0.02em;
+    font-weight: bold;
+    padding-bottom: 21px;
+}
+
+.aboutRight h1:after{
+    display: none;
+}
+
+.lightLetter{
+    font-weight: lighter;
+}
+
+.aboutRight p{
+    padding: 31px 0 45px 0;
+    color: #6c6c6c;
+}
+
+.aboutRight li{
+    padding-left: 25px;
+    margin-bottom: 20px;
+    color: #6c6c6c;
+    background: url(img/aboutLi.png) no-repeat 0px;
+}
+
+.viewPic{
+    min-width: 100%;
+}
+
+.mainTeam{
+    background: #000;
+    text-align: center;
+    padding: 156px 0 165px 0;
+    color: #fff;
+}
+
+.mainTeam h1{
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+
+.photo{
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.comrades{
+    display: flex;
+}
+.person{
+    margin: 0 50px;
+    width: 250px;
+}
+.name{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+.position{
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+.aboutPers{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.servicesCards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 40px;
+}
+
+.servicesCards h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.services h1{
+    text-align: center;
+    padding: 156px 0 30px 0;
+    font-size: 44px;
+}
+
+.services p{
+    color: #6c6c6c;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.clients
+{
+    background: #000;
+    padding: 156px 0 200px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.clients h1{
+    margin-bottom: 30px;
+    font-size: 44px;
+}
+
+.clients img{
+    margin-left: 38px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.work{
+    text-align: center;
+    padding: 156px 0 100px 0;
+}
+
+.work h1{
+    margin-bottom: 30px;
+    font-size: 44px;
+}
+
+.work p{
+    margin-bottom: 175px;
+    color: #6c6c6c;
+    font-size: 16px;
+}
+
+.work img{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.work img:hover{
+    opacity: 0.9;
+}
+
+
+.testimonials{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 170px;
+}
+
+.testimonials h1{
+    text-transform: uppercase;
+    font-size: 44px;
+    margin-top: 156px;
+    margin-bottom: 30px;
+}
+.testimonials p:not(.author){
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.author{
+    font-size: 18px;
+    color: #999999;
+}
+
+.contacts{
+    padding: 156px 0 100px 0;
+}
+.contacts h1,p{
+    text-align: center;
+}
+.contactTape{
+    width: 753px;
+    margin: 0 auto;
+    color: #636363;
+}
+
+.contacts h1{
+    color: #000;
+    margin-bottom: 30px;
+    font-size: 44px;
+}
+
+.form_input {
+    margin-top: 100px;
+    display: flex;
+}
+
+form p{
+    text-align: left;
+}
+
+.red{
+    color:red;
+}
+input{
+    width: 360px;
+    height: 42px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: 1px solid #999999;
+}
+
+textarea{
+    width: 100%;
+    height: 165px;
+    border: 1px solid #999999;
+    margin-top: 10px;
+}
+
+input:first-of-type{
+    margin-right: 30px;
+}
+
+.buttonBlock{
+    display: flex;
+    justify-content: flex-end;
+}
+
+input[type="submit"]{
+    width: 165px;
+    height: 40px;
+    background: #fcac45;
+    color: #fff; 
+    margin-right: 0;
+    margin-top: 30px;   
+}
+
+h1:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 30px;
+    border-bottom: 3px solid #fcac45;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #222222;
+    padding: 30px 0 30px 0;    
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social img{
+    margin-left: 14px;
+}
+
+.social img:hover{
+    opacity: 0.6;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    nav{
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 1105px){
+    nav{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 1030px){
+    .head_nav a{
+        display: none;
+    }
+    .head_nav a.iconMenu{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    nav{
+        width: 100%;
+    }
+    .head_nav.openMenu{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+
+    header .head_nav.openMenu{
+        height: 340px;
+    }
+
+    .head_nav.openMenu a.iconMenu{
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+
+    .head_nav.openMenu a{
+        float:none;
+        display: block;
+        text-align: left;
+    }
+
+    main .mainWelcome{
+        padding: 100px 0 50px 0;
+    }
+    main .mainWelcome h1{
+        font-size: 25px;
+    }
+    main .mainWelcome p{
+        font-size: 15px;
+    }
+    .viewPic{
+        max-width: 100%;
+    }
+    
+    .aboutUs{
+        flex-direction: column;
+    }
+    .aboutRight{
+      text-align: center;
+      margin-left: 0;  
+    }
+    .aboutRight li{
+        text-align: left;
+    }
+    .aboutRight h1{
+        font-size: 20px;
+    }
+    .comrades{
+        flex-direction: column;
+    }
+    .person{
+        align-self: center;
+    }
+    .servicesCards{
+        grid-template-columns: auto;
+    }
+
+    .line1 img:not(:first-child){
+        display:none;
+    }
+    .line2 img:not(:first-child){
+        display:none;
+    }
+    .line3 img:not(:first-child){
+        display:none;
+    }
+
+}
