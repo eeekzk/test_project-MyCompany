@@ -1,9 +1,9 @@
 menu.onclick = function myFunction() {
-    var x = document.getElementById('myHeadNav');
-    if(x.className === "head_nav"){
-        x.className += " openMenu";
+    var burger = document.getElementById('myHeadNav');
+    if(burger.className === "head_nav"){
+        burger.className += " openMenu";
     }
     else{
-        x.className = "head_nav";
+        burger.className = "head_nav";
     }
 }
