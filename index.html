@@ -1,118 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <title>MyCompany</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="normalize.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="headerLogo">
+            <div class="header-logo">
                 <p>mycompany</p>
             </div>
             <nav>
-                <div class="head_nav" id="myHeadNav">
+                <div class="head-nav" id="myHeadNav">
                     <a href="#">HOME</a>
                     <a href="#rollAbout">ABOUT</a>
                     <a href="#rollServ">SERVICES</a>
                     <a href="#rollPort">PORTFOLIO</a>
                     <a href="#rollTest">TESTIMONIALS</a>
                     <a href="#rollContact">CONTACT</a>
-                    <a href="#" id="menu" class="iconMenu">&#9776;</a>
+                    <a href="#" id="menu" class="icon-menu">&#9776;</a>
                 </div>
             </nav>
         </header>
         <main>
-            <div class="mainWelcome">
-                <h1>WELCOME ON<span class="my_company"> MYCOMPANY</span></h1>
-                    <p>We are a digital agency with <span class="aboutCompany">years of experience</span> and with <span class="aboutCompany">extraordinary people</span></p>
-            </div>
+            
+            <section class="main-welcome">
+                <h1>WELCOME ON <span class="main-company">MYCOMPANY</span></h1> 
+                <p>We are a digital agency with <strong>years of experience</strong> and with <strong>extraordinary people</strong></p>
+            </section>
 
-            <a name="rollAbout"></a>
-            <div class="bigTape">
-                <div class="aboutUs">
-                    <div class="aboutLeft">
-                        <img class="viewPic" src="img/mac.png" alt="mac">
+            <div class="container">
+                <a name="rollAbout"></a>
+                <section class="main-about">
+                    <div class="about-picture">
+                        <img class="view-pic" src="img/mac.png" alt="mac">
                     </div>
-                    <aside class="aboutRight">
-                        <h1><span class="lightLetter">SOME WORDS</span> ABOUT US</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit. Doloribus ex quidem maiores ullam quis, at as-<br>periores minus ad eaque maxime possimus.</p>
-                            <ul>
-                                <li> <b>Mission -</b> <i>We deliver uniqueness and quality</i></li>
-                                <li> <b>Skills -</b> <i>Delivering fast and excellent results</i></li>
-                                <li> <b>Clients -</b> <i>Satisfied clients thanks to our experience</i></li>
-                            </ul>
+                    <aside class="about-description">
+                        <h2><span class="light-letter">SOME WORDS</span> ABOUT US</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit. Doloribus ex quidem maiores ullam quis, at as-<br>periores minus ad eaque maxime possimus.
+                        </p>
+                        <ul>
+                            <li><b>Mission -</b><i>We deliver uniqueness and quality</i></li>
+                            <li><b>Skills -</b><i>Delivering fast and excellent results</i></li>
+                            <li><b>Clients -</b><i>Satisfied clients thanks to our experience</i></li>
+                        </ul>
                     </aside>
-                </div>
+                </section>
             </div>
-
-            <div class="mainTeam">
-                <div class="bigTape">
-                    <h1>OUR TEAM</h1>
-                    <div class="comrades">
-                        <div class="person">
+            
+            <section class="main-team">
+                <div class="container">
+                    <h2>OUR TEAM</h2>
+                    <ul class="comrades">
+                        <li class="person">
                             <div class="photo"></div>
-                            <h2 class="name">Ilya Sabziro</h2>
+                            <h3 class="name">Ilya Sabziro</h3>
                             <p class="position">Designer</p>
-                            <p class="aboutPers">Do not seek to change what has come before.</p>
-                        </div>
-                        <div class="person">
+                            <p class="person-description">Do not seek to change what has come before.</p>
+                        </li>
+                        <li class="person">
                             <div class="photo"></div>
-                            <h2 class="name">Ilnur Saberzyanov</h2>
+                            <h3 class="name">Ilnur Saberzyanov</h3>
                             <p class="position">Developer</p>
-                            <p class="aboutPers">Seek to create that which has not.</p>
-                        </div>
-                        <div class="person">
+                            <p class="person-description">Seek to create that which has not.</p>
+                        </li>
+                        <li class="person">
                             <div class="photo"></div>
-                            <h2 class="name">Ilyas Sabirzyanov</h2>
+                            <h3 class="name">Ilyas Sabirzyanov</h3>
                             <p class="position">Manager</p>
-                            <p class="aboutPers">Make Izhevsk great again.</p>
-                        </div>
-                        <div class="person">
+                            <p class="person-description">Make Izhevsk great again.</p>
+                        </li>
+                        <li class="person">
                             <div class="photo"></div>
-                            <h2 class="name">Ilshot Ski</h2>
+                            <h3 class="name">Ilshot Ski</h3>
                             <p class="position">CEO</p>
-                            <p class="aboutPers">Salomon.</p>
-                        </div>    
-                    </div>
+                            <p class="person-description">Salomon.</p>
+                        </li>    
+                    </ul>
                 </div>
-            </div>
+            </section>
 
             <a name="rollServ"></a>
-            <div class="services">
-                <div class="bigTape">
-                    <h1>SERVICES</h1>
-                    <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</i></p>
-                    <div class="servicesCards">
-                        <div class="card">
+            <section class="main-services">
+                <div class="container">
+                    <h2>OUR SERVICES</h2>
+                    <p>
+                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</i>
+                    </p>
+                    <ul class="services-cards">
+                        <li class="card">
                             <img src="img/webDes.png" alt="webDesign">
-                            <h2>WEB DESIGN</h2>
+                            <h3>WEB DESIGN</h3>
                             <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        </div>
-                        <div class="card">
+                        </li>
+                        <li class="card">
                             <img src="img/mobApp.png" alt="mobileApps">
-                            <h2>MOBILE APPS</h2>
+                            <h3>MOBILE APPS</h3>
                             <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        </div>
-                        <div class="card">
+                        </li>
+                        <li class="card">
                             <img src="img/photography.png" alt="photography">
-                            <h2>PHOTOGRAPHY</h2>
+                            <h3>PHOTOGRAPHY</h3>
                             <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        </div>
-                        <div class="card">
+                        </li>
+                        <li class="card">
                             <img src="img/marketing.png" alt="marketing">
-                            <h2>MARKETING</h2>
+                            <h3>MARKETING</h3>
                             <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        </div>    
-                    </div>
+                        </li>    
+                    </ul>
                 </div>
-            </div>
+            </section>
 
             <a name="rollPort"></a>
-            <div class="clients">
-                <div class="bigTape">
-                    <h1><span class="lightLetter">SOME OF</span> OUR CLIENTS</h1>
+            <section class="main-clients">
+                <div class="container">
+                    <h2><span class="light-letter">SOME OF</span> OUR CLIENTS</h2>
                     <div class="companies">
                         <img src="img/chanel.png" alt="chanel">
                         <img src="img/zara.png" alt="zara">
@@ -121,11 +127,14 @@
                         <img src="img/lacoste.png" alt="lacoste">
                     </div>
                 </div>
-            </div>
-            <div class="work">
-                <div class="bigTape">
-                    <h1><span class="lightLetter">TAKE A LOOK AT</span> OUR WORK</h1>
-                    <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</i></p>
+            </section>
+
+            <section class="main-work">
+                <div class="container">
+                    <h2><span class="light-letter">TAKE A LOOK AT</span> OUR WORK</h2>
+                    <p>
+                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</i>
+                    </p>
                     <div class="gallery">
                         <div class="line1">
                             <img src="img/line1.jpg" alt="picture1">
@@ -147,38 +156,44 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <a name="rollTest"></a>
-            <div class="testimonials">
-                <div class="bigTape">
-                    <h1>our clients’ <span class="lightLetter">testimonials</span></h1>
+            <section class="main-testimonials">
+                <div class="container">
+                    <h2>OUR CLIENTS’ <span class="light-letter">TESTIMONIALS</span></h2>
                     <p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                     <p class="author">Dean Martin, CEO Acme Inc.</p>
                 </div>
-            </div>
-
+            </section>
+        
+            <div class="container">
             <a name="rollContact"></a>
-            <section class="contacts">
-                <div class="contactTape">
-                    <h1>CONTACT US</h1>
-                    <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. </i></p>
-                     <form action="#" name="newform" method="post">
-                        <div class="form_input">
-                            <p>Name <span class="red">*</span><input type="text"></p>
-                            <p>Email address <span class="red">*</span><input type="text"></p>
+                <section class="contacts">
+                    <h2>CONTACT US</h2>
+                    <p class="contacts-description">
+                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i>
+                    </p>
+                    <form action="#" name="newform" method="post">
+                        <div class="form-input">
+                            <p>
+                                Name <span class="red">*</span><input type="text">
+                            </p>
+                            <p>
+                                Email address <span class="red">*</span><input type="text">
+                            </p>
                         </div>
                         <p>Message <span class="red">*</span></p>
                         <textarea name="text"></textarea>
-                        <div class="buttonBlock">
+                        <div class="button-block">
                             <input type="submit" value="SEND">
                         </div>
                     </form>
-                </div>
-            </section>    
+                </section>
+            </div>
         </main>
-        <footer>
-            <div class="bigTape">
+        <footer class="main-footer">
+            <div class="container">
                 <div class="social">
                     <a href=""><img src="img/facebook.png" alt="facebook"></a>
                     <a href=""><img src="img/twitter.png" alt="twitter"></a>
@@ -186,7 +201,7 @@
                     <a href=""><img src="img/linkedin.png" alt="linkedin"></a>
                     <a href=""><img src="img/dribbble.png" alt="dribbble"></a>
                 </div>
-            </div>
+            </div>            
         </footer>
         <script src="script.js"></script>
     </body>
